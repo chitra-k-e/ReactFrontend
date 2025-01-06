@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tbl1{
+    width: 80%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    border-collapse: collapse;
+}
+.tbl1 th{
+    padding: 12px 15px;
+}
+td{
+    padding: 12px 15px;
+}
+th, td{
+    border: 2px solid black;
+}
+.data{
+    text-align: center;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin: 10px 0;
+    display: inline-block;
+}
+.tbl1 button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+div{
+    padding: 20px 55px;
+}
