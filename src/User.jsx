@@ -22,7 +22,7 @@ const User = () => {
   return (
     <>
         <div>
-            <Link className='Link' to="/create" >CreateUser</Link>
+            <Link className='create-user-button' to="/create" >CreateUser</Link>
            <table className='tbl1'>
                 <tr>
                     <th>Name</th>
