@@ -15,6 +15,7 @@ const User = () => {
     const handledelete = (id) =>{
         axios.delete(`https://reactbackend-trf1.onrender.com/api/user/Delete/${id}`).then((res)=>{
             console.log("user deleted");
+            window.location.reload();
         }).catch((err)=>{
             console.log(err);
         });

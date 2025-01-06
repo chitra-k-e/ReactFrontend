@@ -21,6 +21,7 @@ const CreateUser = () => {
     <>
         <div className='forms'>
             <form onSubmit={handleSubmit}>
+                <h1 className='form-title'>Create New User</h1> <br />
                 <label htmlFor="">Name: </label>
                 <input type="text" onChange={(e)=>{setName(e.target.value)}}/>
                 <label htmlFor="">Email: </label>
